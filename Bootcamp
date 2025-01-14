@@ -2,5 +2,15 @@
 Key topics:
 
 1. split()
+str_x="abc cde fgh"
+print(str_x,type(str_x))
+
+str_x_new = str_x.split()
+print(str_x_new,type(str_x_new))
 
 2. join()
+list_x=["abc","cde","fgh"]
+print(list_x,type(list_x))
+
+list_x_new=" ".join(list_x)
+print(list_x_new,type(list_x_new))
